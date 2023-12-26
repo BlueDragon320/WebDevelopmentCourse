@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Boxmodel</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /*body{ 
+            background-color: black;  ## I could have used this to make the background black unfortunately i forgot about it and linked a css file to make it black :)
+        }*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            background-color: rgb(116, 182, 98);
+        }
+        .box2{
+            color: rgb(39, 106, 164);
+            padding: 10px;
+            margin: 30px;
+            border: 2px solid;
+            height: 100px;
+            box-sizing: border;
+                /* if box2's margin is greater then the margin between the box 2 and box 1 will be box2's margin*/
+        }
+        .box1{            
+            padding: 10px;
+            margin: 30px;
+            border: 2px solid;
+            height: 100px;
+            box-sizing: border;
+            color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box box1">I am a box</div>
+    <div class="box box2">I am the secound box</div>
+</body>
+
+</html>
