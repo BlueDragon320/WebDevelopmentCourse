@@ -1,25 +1,41 @@
 body{
-    background-color: lightsteelblue;
+    /* background-color: lightsteelblue; */
+    background-color: #7393B3 ;
 }
 
 .container{
+    width: 80vw;
+    height: 100vh;
     border: 2px solid yellow;
     display: grid;
-    grid-template-columns: 120px 100px;
-    grid-template-rows: 100px 100px 100px
+    /* grid-template-columns: [pehela] 120px [dusra] 100px [nasha];
+    grid-template-rows: 100px 100px 100px;
+     */
+    grid-template-columns: 1fr 1fr 1fr;   /* 1fr 1fr = 2 division, changing the number will also change the number of divisions */
+    /* gap: 34px; */
+    row-gap: 10px;
+    column-gap: 20px;
+    justify-items: center;
+    align-items: center;
 }
 
 .item{
     border: 2px solid red;
     height: 55px;
-    width: 55px;
+    width: 55px; 
 }
 
 .item-4{
     grid-row: 1/2;
-    grid-column: 1/2;
+    /* grid-column: 1/2; */
+    grid-column: pehela/nasha;
 }
 .item-1{
-    grid-row: 1/2;
+    /* grid-row: 1/2; */
     grid-column: 1/2;
+        /*  or  */
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    align-self: start;
 }
