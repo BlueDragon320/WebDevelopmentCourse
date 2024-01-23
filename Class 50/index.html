@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Filters</title>
+    <style>
+        img{
+            filter: blur(0px);
+        }
+        .conatiner{
+            height: 720px;
+            width: 1080px;
+        }
+        .img1{
+            filter: brightness(152%);
+            filter: contrast(100%);
+            filter: invert(1);
+            /* To see all the filter options you can use browser */
+        }
+        .img2{
+            filter: grayscale(100%);  /* grey ish tint */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class"img1" src="https://images.unsplash.com/photo-1584082411947-dfa856e714eb?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        <img class"img2" src="https://www.tata.com/content/dam/tata/images/heritage/desktop/jrd119_banner_desktop_1920x1080.jpg" alt="">
+        <img class"img3" src="https://en.wikipedia.org/wiki/File:A._P._J._Abdul_Kalam.jpg" alt="">
+    </div>
+</body>
+</html>
