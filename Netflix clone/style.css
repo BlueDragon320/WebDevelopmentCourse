@@ -95,3 +95,27 @@ nav buttons{
 .tvfrm{
     color: white;
 }
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    padding: 3px 24px;
+    font-size: 20px;
+}
+.main input{
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.2);
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+}
+
