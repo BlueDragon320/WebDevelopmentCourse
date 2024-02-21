@@ -98,7 +98,11 @@ nav buttons{
 .btn{
     padding: 3px 8px;
     font-weight: bold;
-    background-color: white;
+    background-color: rgba(23, 23, 23, 0.463);
+    color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    cursor: pointer;
 }
 .btn-red{
     background-color: red;
@@ -106,16 +110,26 @@ nav buttons{
     border-radius: 4px;
     padding: 3px 24px;
     font-size: 20px;
-}
-.main input{
-    padding: 3px 24px;
-    font-size: 20px;
     border-radius: 4px;
-    background-color: rgba(23, 23, 23, 0.2);
 }
 .btn-red-sm{
     background-color: red;
     color: white;
     border-radius: 4px;
+    padding: 4px;
 }
-
+.mailint1{
+    padding: 4px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 2px soild rgba(246, 238, 238, 0.3);   
+}
+.btnint1{
+    background-color: red;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
