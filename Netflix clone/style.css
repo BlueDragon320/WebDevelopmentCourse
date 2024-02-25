@@ -47,7 +47,7 @@ nav buttons{
     z-index: 10;
 }
 .hero{
-    height: 89%;
+    /* height: 89%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,7 +55,17 @@ nav buttons{
     flex-direction: column;
     position: relative;
     font-family: "Martel Sans", sans-serif;
-    gap: 10px;
+    gap: 10px; */
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
 }
 .hero> :first-child{
     font-size: 35px;
@@ -76,6 +86,12 @@ nav buttons{
 }
 .intmail{
     padding: 10px;
+}
+.separation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
 }
 .sec2{
     width: 100%;
