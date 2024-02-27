@@ -170,6 +170,7 @@ nav buttons{
 }
 .secimg{
     position: relative;
+    /* top: 51px; */
 }
 .secimg img{
     width: 25vw;
@@ -180,12 +181,22 @@ nav buttons{
 }
 .secimg video{
     position: absolute;
-    top: 53px;
-    right: 47px;
+    top: 47px;
+    right: 83px;
     height: 10.15vw;
 }
 .text102{
     align-items: center;
     justify-content: center;
     display: flex;
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+.first > div :first-child{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: -10%;
+    margin-bottom: 4%;
 }
