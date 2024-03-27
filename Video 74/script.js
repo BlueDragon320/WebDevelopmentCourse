@@ -1,6 +1,6 @@
-let btn = document.getElementById("btn")
+let button = document.getElementById("btn")
 
 button.addEventListener("click", ()=>{
-    document
+    document.querySelector(".box").innnerHTML = "<b>yay you were clicked</b> Enjoy your click!"
 
 })
