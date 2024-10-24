@@ -1,0 +1,110 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #2C2C2C;
+}
+
+nav ul li{
+    text-decoration: none;
+    display: inline;
+    padding: 15px;
+    align-items: end;
+    font-weight: bold;
+    font-size: larger;
+}
+nav{
+    padding: 1.5%;
+    background-color: #BB86FC;
+    color: #E0E0E0;
+}
+.box{
+    background-color: #9bf400de;
+    height: 1000px;
+    position: absolute;
+}
+.smallbox{
+    border: 2px solid black;
+    position: relative;
+    height: 500px;
+    width: 1000px;
+
+} */
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2C2C2C;
+}
+
+nav ul li {
+    text-decoration: none;
+    display: inline;
+    padding: 15px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+nav {
+    padding: 1.5%;
+    background-color: #BB86FC;
+    color: #E0E0E0;
+    position: sticky;
+    width: 100%;
+    top: 0; /* This makes it stick to the top */
+    z-index: 1000; /* Ensures the nav stays on top of other content */
+}
+
+
+.box {
+    background-color: #9bf400de;
+    height: 800px;
+    position: relative;
+    margin: 40px;
+    display: flex;
+    justify-content: space-around; /* Space between the boxes */
+    align-items: center; /* Align boxes vertically */
+}
+
+.smallbox {
+    border: 2px solid black;
+    height: 600px;
+    /* margin-top: -280px; */
+    width: 800px; /* Adjusted width to fit side by side */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.smallbox:first-child{
+    background-color: pink;
+}
+.smallbox:nth-child(2){
+    background-color: cyan;
+}
+p{
+    text-align: center;
+    padding: 20px;
+    font-size: 100px;
+    font-weight: bolder;
+    color: aliceblue;
+    border: 2px solid whitesmoke;
+    border-radius: 10%;
+    margin: 50px 150px;
+}
+
+footer{
+    height: 200px;
+    background-color: antiquewhite;
+}
